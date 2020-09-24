@@ -1025,6 +1025,7 @@ GameObject:
   - component: {fileID: 355566096}
   - component: {fileID: 355566095}
   - component: {fileID: 355566094}
+  - component: {fileID: 355566098}
   m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
@@ -1322,6 +1323,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355566092}
   m_Mesh: {fileID: 1770187023}
+--- !u!65 &355566098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355566092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 20, z: 10}
+  m_Center: {x: 5, y: 10, z: -5}
 --- !u!1 &365250469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,7 +1540,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13908
+  m_Name: pb_Mesh14118
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3492,6 +3506,7 @@ GameObject:
   - component: {fileID: 1076443810}
   - component: {fileID: 1076443809}
   - component: {fileID: 1076443808}
+  - component: {fileID: 1076443812}
   m_Layer: 8
   m_Name: RndPlatform
   m_TagString: Untagged
@@ -3789,13 +3804,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076443806}
   m_Mesh: {fileID: 1138385613}
+--- !u!65 &1076443812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076443806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 20, z: 50}
+  m_Center: {x: 10, y: 10, z: -25}
 --- !u!43 &1096844893
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13796
+  m_Name: pb_Mesh14068
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3958,7 +3986,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-11978
+  m_Name: pb_Mesh14036
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4695,6 +4723,7 @@ GameObject:
   - component: {fileID: 1229718963}
   - component: {fileID: 1229718962}
   - component: {fileID: 1229718961}
+  - component: {fileID: 1229718965}
   m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -4992,6 +5021,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229718959}
   m_Mesh: {fileID: 1096844893}
+--- !u!65 &1229718965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229718959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 20, z: 10}
+  m_Center: {x: 5, y: 10, z: -5}
 --- !u!1 &1344708959
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,6 +5047,7 @@ GameObject:
   - component: {fileID: 1344708963}
   - component: {fileID: 1344708962}
   - component: {fileID: 1344708961}
+  - component: {fileID: 1344708965}
   m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -5302,6 +5345,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344708959}
   m_Mesh: {fileID: 2089795462}
+--- !u!65 &1344708965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344708959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 20, z: 10}
+  m_Center: {x: 5, y: 10, z: -5}
 --- !u!1 &1383358257
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,6 +5371,7 @@ GameObject:
   - component: {fileID: 1383358261}
   - component: {fileID: 1383358260}
   - component: {fileID: 1383358259}
+  - component: {fileID: 1383358263}
   m_Layer: 8
   m_Name: StartPlatform
   m_TagString: Untagged
@@ -5612,6 +5669,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383358257}
   m_Mesh: {fileID: 1741190604}
+--- !u!65 &1383358263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383358257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 20, z: 50}
+  m_Center: {x: 10, y: 10, z: -25}
 --- !u!43 &1496285229
 Mesh:
   m_ObjectHideFlags: 0
@@ -6098,6 +6168,7 @@ GameObject:
   - component: {fileID: 1587622879}
   - component: {fileID: 1587622878}
   - component: {fileID: 1587622877}
+  - component: {fileID: 1587622881}
   m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -6395,6 +6466,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587622875}
   m_Mesh: {fileID: 617045479}
+--- !u!65 &1587622881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587622875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 20, z: 10}
+  m_Center: {x: 5, y: 10, z: -5}
 --- !u!1 &1613146457
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,7 +6866,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-10652
+  m_Name: pb_Mesh14092
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7108,7 +7192,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13668
+  m_Name: pb_Mesh13942
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7712,7 +7796,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13730
+  m_Name: pb_Mesh14080
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
